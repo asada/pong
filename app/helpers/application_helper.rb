@@ -9,7 +9,7 @@ module ApplicationHelper
   end
 
   def logo
-    image_tag(ENV['logo_url'] || 'insertLogoHere.png')
+    image_tag(ENV["logo_url"] || 'insertLogoHere.png')
   end
 
   def player_avatar(player, options = {})

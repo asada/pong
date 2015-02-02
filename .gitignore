@@ -6,5 +6,7 @@ log/
 *.sqlite3
 .idea/
 config/database.yml
+config/site_configs.yml
+vendor/bundle
 .sass-cache/
 public/uploads

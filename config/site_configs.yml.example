@@ -1,0 +1,7 @@
+app_setup:
+  username: "some_username"
+  password: "some_password"
+  admin_username: "some_username"
+  admin_password: "some_password"
+  logo_url: "some_url"
+  pong_location: "some_location"

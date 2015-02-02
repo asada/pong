@@ -12,10 +12,10 @@ class ApplicationController < ActionController::Base
   end
 
   def user
-    @user ||= ENV['username']
+    @user ||= ENV["username"]
   end
 
   def pass
-    @pass ||= ENV['password']
+    @pass ||= ENV["password"]
   end
 end
