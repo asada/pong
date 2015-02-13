@@ -5,7 +5,7 @@
   = text_field_tag :winner_name, "", autocomplete: "off"
   = label_tag :loser_name
   = text_field_tag :loser_name, "", autocomplete: "off"
-  = f.label :occured_at
+  = f.label :occured_at, "Occured at (Leave this blank unless you are pre/post-dating the match)"
   = f.text_field :occured_at
   = submit_tag "Add match", disable_with: "Working..."
 
